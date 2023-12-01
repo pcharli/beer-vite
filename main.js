@@ -4,7 +4,7 @@ import './style.css'
 
 const sidebar = document.querySelector('.sidebar')
 
-beersList(5)
+beersList(15)
   .then(beers => {
     let template = `<ol class="beersList">`
     let abv = 0
